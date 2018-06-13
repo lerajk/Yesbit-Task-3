@@ -39,7 +39,7 @@ require('chai')
   /* TESTS FOR THE SMART CONTRACTS WOULD INCLUDE:
 
   a) Checking for 0 or Null addresses for the HOUSE and PLAYER 
-  b) Making sure the betting amount is < 0
+  b) Making sure the betting amount is > 0
   c) Checking if the Temperature value is valid and revert occurs anywhere >100 F
   d) Checking if the code behaves properly on TWO major use cases:
       - Any number between 0 - 50, ETH is transfered to the HOUSE
